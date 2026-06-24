@@ -7,23 +7,45 @@
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-  <header>
-    <h1><a href="/">Mizuno AI Blog</a></h1>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="site-title"><a href="/">Mizuno AI Blog</a></h1>
+      <nav class="site-nav">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+      </nav>
+    </div>
   </header>
-  <main>
-    <p>Welcome to the Mizuno AI Blog.</p>
+  <main class="container">
+    <section class="hero">
+  <h2>欢迎来到 Mizuno AI Blog</h2>
+  <p class="lead">分享 AI、工程、学习笔记 — 使用 GitHub Pages 自动发布。</p>
+  <div class="search">
+    <input placeholder="搜索文章（示例）" aria-label="search" />
+  </div>
+</section>
 
-<ul>
-  
-    <li><a href="/2026/06/24/welcome-to-your-blog.html">欢迎来到我的博客</a> - 2026-06-24</li>
-  
-</ul>
+<section>
+  <h3>最新文章</h3>
+  <div class="posts-grid">
+    
+      <article class="post-card">
+        <a class="post-link" href="/2026/06/24/welcome-to-your-blog.html">
+          <h3>欢迎来到我的博客</h3>
+          <p class="meta">2026-06-24</p>
+          <p>这是第一篇测试文章。
 
-<p>Write posts as Markdown files in the _posts/ folder with filename format: YYYY-MM-DD-title.md</p>
+</p>
+        </a>
+      </article>
+    
+  </div>
+</section>
+
+<p style="margin-top:1.25rem">写新的文章：在 <code>_posts/</code> 中创建 Markdown，命名为 <code>YYYY-MM-DD-your-title.md</code> 并添加 front matter。</p>
 
   </main>
-  <footer>
-    <hr>
+  <footer class="site-footer container">
     <p>© 2026 Mizuno AI Blog</p>
   </footer>
 </body>
