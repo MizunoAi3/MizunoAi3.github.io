@@ -1,0 +1,8 @@
+title: "Mizuno AI Blog"
+email: ""
+description: "A simple Jekyll blog deployed to GitHub Pages"
+baseurl: ""
+url: "https://<your-username>.github.io"
+theme: minima
+plugins:
+  - jekyll-feed
